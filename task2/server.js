@@ -16,6 +16,10 @@ app.post("/users", (req, res) => {
   res.status(201).json(user);
 });
 
+app.get("/users", (req, res) => {
+  res.json(users);
+});
+
 app.put("/users/:id", (req, res) => {
   const id = parseInt(req.params.id);
   const { name, email } = req.body;
