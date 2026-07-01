@@ -1,0 +1,16 @@
+{
+  "name": "task6",
+  "version": "1.0.0",
+  "description": "E-Commerce Order Management API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
